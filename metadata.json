@@ -1,0 +1,5 @@
+{
+  "name": "Tuned Mass Damper Simulator",
+  "description": "An interactive physics simulation of a coupled spring-mass-damper system, modeled after the MIT Mechanical Engineering 'Mascot' mechanism. Explore how tuned mass dampers stabilize structures like the John Hancock Tower.",
+  "requestFramePermissions": []
+}
