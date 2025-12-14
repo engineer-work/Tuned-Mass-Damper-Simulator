@@ -3,22 +3,26 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://engineer-work.github.io/Tuned-Mass-Damper-Simulator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@react-three/drei": "9.99.0",
+    "@react-three/fiber": "8.15.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recharts": "2.12.0",
-    "three": "0.160.0",
-    "@react-three/fiber": "8.15.16",
-    "@react-three/drei": "9.99.0"
+    "three": "0.160.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
